@@ -34,41 +34,48 @@
 
 ## 🚀 Installation  
 
-```bash
+
 # Clone repository
+```bash
 git clone https://github.com/yourusername/ai-shorts-generator.git
 cd ai-shorts-generator
-
+```
 # Install backend dependencies
+```bash
 cd backend
 npm install
+```
 
 # Install frontend dependencies
+```bash
 cd ../frontend
 npm install
+```
 
 
-⚙️ Configuration
-
+## ⚙️ Configuration
 Create .env file in /backend:
-env
-Copy
+```bash
+env:
 OPENAI_API_KEY=your_key
 ELEVENLABS_API_KEY=your_key
 MONGO_URI=mongodb+srv://...
-Start development servers:
-bash
-Copy
+```
+
 # Backend
+```bash
 cd backend
 npm run dev
+```
 
-# Frontend (in new terminal)
+## Frontend (in new terminal)
+```bash
 cd ../frontend
 npm run dev
-📂 Project Structure
+```
 
-Copy
+## 📂 Project Structure
+
 ai-shorts-generator/
 ├── backend/
 │   ├── controllers/    # API logic
@@ -85,19 +92,17 @@ ai-shorts-generator/
 │
 ├── .gitignore
 └── README.md
-🌟 How It Works?
 
+## 🌟 How It Works?
 User inputs topic (e.g., "3 Coding Tips")
-AI generates:
-📝 Script (via OpenAI)
-🖼️ Thumbnail (via DALL·E)
-🔊 Voiceover (via ElevenLabs)
-System assembles video using FFmpeg
-User exports MP4 or shares directly
-📸 Screenshots
-
-Script Generator	Thumbnail Gallery	Video Preview
-Script	Thumbnail	Video
+## AI generates:
+- **📝 Script (via OpenAI)
+- **🖼️ Thumbnail (via DALL·E)
+- **🔊 Voiceover (via ElevenLabs)
+- **System assembles video using FFmpeg
+- **User exports MP4 or shares directly
+## 📸 Screenshots
+screenshots, demo video will be uploaded soon
 
 
 
