@@ -75,7 +75,7 @@ npm run dev
 ```
 
 ## 📂 Project Structure
-
+```bash
 ai-shorts-generator/
 ├── backend/
 │   ├── controllers/    # API logic
@@ -92,6 +92,7 @@ ai-shorts-generator/
 │
 ├── .gitignore
 └── README.md
+```
 
 ## 🌟 How It Works?
 User inputs topic (e.g., "3 Coding Tips")
