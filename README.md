@@ -9,7 +9,7 @@
 
 ## ✨ Features  
 
-- **AI Script Writing** (GPT-3.5/4)  
+- AI Script Writing** (GPT-3.5/4)  
 - **Thumbnail Generation** (DALL·E/Stable Diffusion)  
 - **Voice Synthesis** (ElevenLabs/Browser TTS)  
 - **Video Composition** (FFmpeg)  
@@ -97,11 +97,11 @@ ai-shorts-generator/
 ## 🌟 How It Works?
 User inputs topic (e.g., "3 Coding Tips")
 ## AI generates:
-- **📝 Script (via OpenAI)
-- **🖼️ Thumbnail (via DALL·E)
-- **🔊 Voiceover (via ElevenLabs)
-- **System assembles video using FFmpeg
-- **User exports MP4 or shares directly
+- 📝 Script (via OpenAI)
+- 🖼️ Thumbnail (via DALL·E)
+- 🔊 Voiceover (via ElevenLabs)
+- System assembles video using FFmpeg
+- User exports MP4 or shares directly
 ## 📸 Screenshots
 screenshots, demo video will be uploaded soon
 
